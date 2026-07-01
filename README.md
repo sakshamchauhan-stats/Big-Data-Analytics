@@ -42,4 +42,4 @@ The objective of this repository is to bridge theoretical understanding of Big D
 ### Connect with Me
 
 - LinkedIn: https://linkedin.com/in/sakshamstats
-- Email: sakshamchauhan12@gmail.com
+- Email: saksham12chauhan07@gmail.com
