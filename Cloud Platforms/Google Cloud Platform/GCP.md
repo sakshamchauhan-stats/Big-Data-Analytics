@@ -10,7 +10,7 @@ The platform allows organizations to provision infrastructure and consume manage
 
 ---
 
-### Resource Hierarchy
+### 1. Resource Hierarchy
 
 GCP resources are organized using the following hierarchy:
 
@@ -70,7 +70,7 @@ Examples:
 - Databases
 
 
-### Major GCP Service Categories
+### 2. Major GCP Service Categories
 - Compute: Compute Engine, GKE, Cloud Run
 - Storage:	Google Cloud Storage
 - Databases:	Cloud SQL, Spanner, Firestore, Datastore
@@ -79,7 +79,7 @@ Examples:
 - Security:	IAM, Secret Manager
 
 
-### Data Engineering & Big Data
+### 3. Data Engineering & Big Data
 GCP provides several services for building Big Data and Data Engineering workflows.
 
 **Pub/Sub**
@@ -137,7 +137,7 @@ Processed Data
 
 
 
-### Machine Learning Operations
+### 4. Machine Learning Operations
 **Vertex AI**
 Vertex AI is GCP's platform for building, training, deploying, and managing machine learning and AI workloads.
 A simplified workflow can be:
@@ -162,7 +162,7 @@ Prediction API
 Vertex AI can therefore be integrated with Data Engineering pipelines and application infrastructure.
 
 
-### Example of Big Data Architecture
+### 5. Example of Big Data Architecture
 GCP services can be combined to create an end-to-end Big Data architecture:
 ```
 Data Sources
@@ -188,6 +188,7 @@ Vertex AI
      v
 Prediction / Application
 ```
+--- 
 
 ### Key Learnings
 - GCP organizes resources through organizations, folders, projects, and resources.
