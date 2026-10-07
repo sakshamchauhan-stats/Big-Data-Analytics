@@ -25,6 +25,7 @@ Projects
     |
     v
 Resources
+```
 
 Organization
 - Represents the top-level entity for an organization in GCP.
