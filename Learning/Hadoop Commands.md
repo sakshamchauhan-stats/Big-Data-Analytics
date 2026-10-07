@@ -1,0 +1,75 @@
+# Hadoop Commands on GCP
+
+This document covers basic Hadoop commands executed through the SSH terminal of the Google Cloud Dataproc cluster.
+
+The exercises demonstrate how files can be managed within the Hadoop Distributed File System (HDFS) rather than the local file system of the VM.
+
+### 1. Hadoop Version
+
+Checked the Hadoop version installed on the Dataproc cluster.
+
+<img width="940" height="111" alt="image" src="https://github.com/user-attachments/assets/13bc8ffe-0397-4fd7-ada5-7278545db9db" />
+
+### 2. Listing Files and Directories
+
+Listed files and directories available in the Hadoop file system.
+
+<img width="940" height="160" alt="image" src="https://github.com/user-attachments/assets/05df9afc-fbdd-4877-a862-9396a8e03d6f" />
+
+### 3. Creating a Directory and Copying a File
+
+Created a directory in the Hadoop file system and copied a file into it.
+
+<img width="940" height="273" alt="image" src="https://github.com/user-attachments/assets/aaf5ac6e-bcb4-4363-9b8a-d5f422c41d60" />
+
+### 4. Storing a File in Hadoop File System
+
+Copied a file from the local file system into the Hadoop file system.
+
+<img width="940" height="517" alt="image" src="https://github.com/user-attachments/assets/dffc3b75-347b-4c2f-890c-a3ab0de1053b" />
+
+### 5. Replication Factor
+
+The replication factor for the uploaded file was **1**.
+
+This is because the Dataproc cluster used for this learning exercise contains only one VM.
+
+In a multi-node Hadoop cluster, files can be replicated across multiple DataNodes based on the configured replication factor.
+
+### 6. Hadoop Accessing Google Cloud Storage
+
+The Dataproc environment was also used to access data stored in Google Cloud Storage.
+
+<img width="940" height="95" alt="image" src="https://github.com/user-attachments/assets/ce9e3f4d-70b7-4fc9-84a7-58342cc41014" />
+
+
+### 7. Creating a Directory
+
+Created a directory while working with the Hadoop file system.
+
+<img width="940" height="194" alt="image" src="https://github.com/user-attachments/assets/fabb0fe6-918a-4d42-abbb-49238b93100a" />
+
+### Key Learnings
+
+- Checking the Hadoop installation and version
+- Navigating the Hadoop file system
+- Creating directories in HDFS
+- Copying files into HDFS
+- Understanding Hadoop file replication
+- Understanding the relationship between local VM storage, HDFS, and GCS
+- Accessing cloud storage from the Dataproc environment
+
+### Key Concept
+
+Linux commands operate on the local file system of the VM, while Hadoop commands allow files to be managed within the distributed Hadoop storage layer.
+
+```text
+Local VM File System
+        |
+        | Hadoop commands
+        v
+Hadoop Distributed File System
+        |
+        | Cloud integration
+        v
+Google Cloud Storage
