@@ -12,24 +12,13 @@ It covers cluster creation, cloud storage configuration, and working with Hadoop
 
 ### Content
 
-#### Google Cloud Dataproc
-- Created a single-node Dataproc cluster on GCP
-- Configured cluster resources and optional components
-- Enabled the Component Gateway and Jupyter interface
-- Accessed cluster information, configuration, and web interfaces
-- Added the equivalent GCP Cloud Shell command
-
-#### Google Cloud Storage
-- Created a GCS bucket for Big Data Engineering practice
-- Configured bucket storage and access settings
-- Uploaded `Africa.csv` to the bucket
-- Used GCS as cloud storage for the Hadoop environment
-
 #### Hadoop & Linux Commands
 - Accessed the Dataproc cluster through SSH
 - Executed Linux commands
 - Executed Hadoop commands
 - Explored basic interaction with the Hadoop environment
+- MapReduce
+- Hive
 
 ### Key Technologies
 
@@ -39,12 +28,6 @@ It covers cluster creation, cloud storage configuration, and working with Hadoop
 - GCP Cloud Shell
 - Linux
 
-### Planned Additions
-
-This folder will be expanded with:
-
-- MapReduce
-- Hive
 
 ### Purpose
 
