@@ -8,6 +8,8 @@ GCP provides cloud-based services for compute, storage, databases, Big Data proc
 
 The platform allows organizations to provision infrastructure and consume managed services without having to manage all of the underlying physical infrastructure.
 
+---
+
 ### Resource Hierarchy
 
 GCP resources are organized using the following hierarchy:
@@ -66,6 +68,7 @@ Examples:
 - Dataproc Clusters
 - BigQuery Datasets
 - Databases
+
 
 ### Major GCP Service Categories
 - Compute: Compute Engine, GKE, Cloud Run
@@ -132,6 +135,8 @@ Processed Data
 - Used for large-scale SQL-based data analysis.
 - Allows large datasets to be queried without managing the underlying database infrastructure.
 
+
+
 ### Machine Learning Operations
 **Vertex AI**
 Vertex AI is GCP's platform for building, training, deploying, and managing machine learning and AI workloads.
@@ -155,3 +160,54 @@ Model Deployment
 Prediction API
 ```
 Vertex AI can therefore be integrated with Data Engineering pipelines and application infrastructure.
+
+
+### Example of Big Data Architecture
+GCP services can be combined to create an end-to-end Big Data architecture:
+```
+Data Sources
+     |
+     v
+Pub/Sub
+     |
+     v
+Dataflow
+     |
+     v
+GCS / BigQuery
+     |
+     v
+Dataproc / Spark / Hadoop
+     |
+     v
+BigQuery
+     |
+     v
+Vertex AI
+     |
+     v
+Prediction / Application
+```
+
+### Key Learnings
+- GCP organizes resources through organizations, folders, projects, and resources.
+- Billing accounts can be associated with multiple projects.
+- GCP provides managed services for compute, storage, databases, Big Data, networking, security, DevOps, and AI/ML.
+- GCS provides cloud object storage.
+- Dataproc provides managed Hadoop and Spark clusters.
+- Pub/Sub supports event-driven and real-time data ingestion.
+- Dataflow supports batch and streaming data processing.
+- BigQuery provides large-scale analytical processing using SQL.
+- Vertex AI provides a platform for machine learning and AI workloads.
+- IAM controls access to GCP resources.
+- GCP services can be combined to build complete Data Engineering and ML architectures.
+
+### Purpose
+The objective of this section is to develop a practical understanding of Google Cloud Platform and its major services, with a focus on how cloud infrastructure can support Big Data Analytics, Data Engineering, and Machine Learning workflows.
+
+---
+
+### Connect with Me
+
+- LinkedIn: https://linkedin.com/in/sakshamstats
+- Email: saksham12chauhan07@gmail.com
