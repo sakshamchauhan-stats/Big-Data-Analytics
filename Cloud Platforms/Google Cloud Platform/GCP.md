@@ -46,7 +46,7 @@ Organization
     └── Deployment Project
 ```
 
-**Projects**
+**Projects** \
 A project is the fundamental unit used to create and manage GCP resources.
 A project can contain resources such as:
 - Cloud Storage
@@ -60,7 +60,7 @@ When a project is created, it has:
 - Project ID – Unique identifier
 - Project Number – Google-generated numeric identifier
 
-**Resources**
+**Resources** \
 Resources are the actual cloud services created inside a project.
 Examples:
 - Virtual Machines
@@ -138,7 +138,7 @@ Processed Data
 
 
 ### 4. Machine Learning Operations
-**Vertex AI**
+**Vertex AI** \
 Vertex AI is GCP's platform for building, training, deploying, and managing machine learning and AI workloads.
 A simplified workflow can be:
 ```
