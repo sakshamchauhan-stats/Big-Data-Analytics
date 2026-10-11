@@ -1,4 +1,4 @@
-# All a Data Scientist need to know about AWS.md
+# All a Data Scientist need to know about AWS
 
 ## Amazon Web Services (AWS)
 
