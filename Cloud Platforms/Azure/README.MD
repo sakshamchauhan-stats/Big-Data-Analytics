@@ -1,3 +1,4 @@
+# All a Data Scientist needs to know about Azure
 ## Microsoft Azure
 
 Microsoft Azure is Microsoft's cloud platform for compute, storage, databases, networking, data engineering, AI/ML, security, and DevOps.
