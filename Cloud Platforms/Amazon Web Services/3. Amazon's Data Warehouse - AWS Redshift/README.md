@@ -17,8 +17,6 @@
 
 ### What I Worked On
 
-This section can be updated based on the components you have actually configured and explored in your AWS environment.
-
 - Explored Amazon Redshift as a cloud data warehouse for analytical workloads.
 - Understood the difference between provisioned Redshift clusters and Redshift Serverless.
 - Explored how Redshift stores and processes structured data using distributed compute resources.
